@@ -1,0 +1,181 @@
+body {
+  background-color: #F5F5F5;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  box-sizing: border-box;
+  height: 120px;
+  width: 100%;
+}
+
+#personal-tm-info {
+  background-color: #616161;
+  box-sizing: border-box;
+  display: inline-block;
+  float: left;
+  height: 120px;
+  width: 20%;
+}
+
+.tm-profile-photo {
+  border-radius: 100%;
+  height: 65px;
+  margin: 15px 10px 0 15px;
+  width: 65px;
+}
+
+.tm-profile-logo {
+  width: 130px;
+}
+
+.tm-profile-mail {
+  color: white;
+  margin: 5px 0;
+  text-align: center;
+}
+
+
+#title-region {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-sizing: border-box;
+  display: inline-block;
+  height: 120px;
+  padding: 25px 30px 30px 30px;
+  position: fixed;
+  width: 80%;
+  z-index: 100;
+}
+
+.title-Option {
+  color: #F6B532;
+}
+
+.title-hr {
+  background-color: #F6B532;
+  border: none;
+  height: 3px;
+}
+
+#side-menu {
+  background-color: #303030;
+  box-sizing: border-box;
+  color: white;
+  display: inline-block;
+  float: left;
+  height: 1000px;
+  padding: 30px 0 0 70px;
+  width: 20%;
+}
+
+#side-menu h5 {
+  margin: 20px 0 7px 0;
+  padding: 0;
+}
+
+.side-menu-select {
+  background-color: #B2B2B2;
+  color: #303030;
+  display: block;
+  height: 30px;
+  /*margin: 2px auto 10px auto;*/
+  width: 55%;
+}
+
+.side-menu-select:focus {
+  outline-color: #F6B532;
+}
+
+#dashboard {
+  box-sizing: border-box;
+  display: inline-block;
+  float: left;
+  height: 1000px;
+  padding-top: 30px;
+  text-align: center;
+  width: 80%;
+}
+
+.welcomeText {
+  color: #F6B532;
+}
+
+.logo-laboratoria {
+  margin-top: 10px;
+  width: 100px;
+}
+
+.arrow {
+  width: 250px;
+}
+
+.content-data {
+  background-color: white;
+  box-sizing: border-box;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: inline-block;
+  margin: 5px 5px;
+}
+
+.three-Columns {
+  box-sizing: border-box;
+  width: 31%;
+}
+
+.two-Columns {
+  box-sizing: border-box;
+  width: 47%;
+}
+
+#overcome-tech-db-data h5 {
+  margin: 0;
+  padding: 0;
+}
+
+#generation-coders-generation-db, #generation-coders-db, #abandonment-coders-db-data, #overcome-tech-db-data, #overcome-hse-db-data, #teachers-db-data, #jedi-master-db-data {
+  border:  solid 1px white;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1), 0 1px 5px 0 rgba(0, 0, 0, 0.09);
+  color: white;
+  padding: 10px;
+  text-align: left;
+  width: 90%;
+  margin: 5px auto;
+}
+
+/*cajas generales con info*/
+#generation-coders-number-db, #abandonment-coders-db, #net-promote-score-db, #satisfaction-lab-db, #overcome-tech-db, #overcome-hse-db, #teachers-db, #jedi-master-db  {
+  background-color:  #F6B532;
+  padding: 20px;
+  text-align: left;
+}
+
+#generation-coders-number-db h5, #abandonment-coders-db h5, #net-promote-score-db h5, #satisfaction-lab-db h5, #overcome-tech-db h5, #overcome-hse-db h5, #teachers-db h5, #jedi-master-db h5 {
+  color: white;
+}
+
+#chart_div_aqp_2016_2_nps, #chart_div_aqp_2017_1_nps, #chart_div_cdmx_2017_1_nps, #chart_div_cdmx_2017_2_nps,
+#chart_div_lima_2016_2_nps, #chart_div_lima_2017_1_nps, #chart_div_lima_2017_2_nps, #chart_div_scl_2016_2_nps, #chart_div_scl_2017_1_nps, #chart_div_scl_2017_2_nps, #chart_div_aqp_2016_2_satisfaction, #chart_div_aqp_2017_1_satisfaction, #chart_div_cdmx_2017_1_satisfaction, #chart_div_cdmx_2017_2_satisfaction, #chart_div_lima_2016_2_satisfaction, #chart_div_lima_2017_1_satisfaction, #chart_div_lima_2017_2_satisfaction, #chart_div_scl_2016_2_satisfaction, #chart_div_scl_2017_1_satisfaction, #chart_div_scl_2017_2_satisfaction {
+  background-color: white;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+#columnchart_aqp2016_2_Tech, #columnchart_aqp2017_1_Tech, #columnchart_cdmx2017_1_Tech, #columnchart_cdmx2017_2_Tech, #columnchart_lima2016_2_Tech, #columnchart_lima2017_1_Tech, #columnchart_lima2017_2_Tech, #columnchart_scl2016_2_Tech, #columnchart_scl2017_1_Tech, #columnchart_scl2017_2_Tech, #columnchart_aqp2016_2_Hse, #columnchart_aqp2017_1_Hse,
+#columnchart_cdmx2017_1_Hse, #columnchart_cdmx2017_2_Hse, #columnchart_lima2016_2_Hse, #columnchart_lima2017_1_Hse, #columnchart_lima2017_2_Hse, #columnchart_scl2016_2_Hse, #columnchart_scl2017_1_Hse, #columnchart_scl2017_2_Hse,
+#chart_div_aqp_2016_2, #chart_div_aqp_2017_1, #chart_div_cdmx_2017_1, #chart_div_cdmx_2017_2, #chart_div_lima_2016_2, #chart_div_lima_2017_1, #chart_div_lima_2017_2, #chart_div_scl_2016_2, #chart_div_scl_2017_1, #chart_div_scl_2017_2,
+#chart_div_aqp_2016_2_jedi, #chart_div_aqp_2017_1_jedi, #chart_div_cdmx_2017_1_jedi, #chart_div_cdmx_2017_2_jedi, #chart_div_lima_2016_2_jedi, #chart_div_lima_2017_1_jedi, #chart_div_lima_2017_2_jedi, #chart_div_scl_2016_2_jedi, #chart_div_scl_2017_1_jedi, #chart_div_scl_2017_2_jedi {
+  background-color: white;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

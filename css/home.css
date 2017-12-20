@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  background-color: #efaa1f;
+  font-family:  'Montserrat', sans-serif; 'Montserrat', sans-serif;
+}
+
+ #start {
+   background-image: url('./../assets/images/backgroundimg.png');
+   background-size: cover;
+   height: 670px;
+   width: 100%;
+
+ }
+
+ .access{
+   float: left;
+   width: 45%;
+   height: 320px;
+   margin-top: 6%;
+   margin-left: 36%;
+
+ }
+
+ .perfil {
+  width: 36%;
+  border-radius: 100%;
+  margin-bottom: 26px;
+  margin-left: 66px;
+ }
+
+ input{
+   clear: left;
+   float: left;
+   height: 36px;;
+   width: 48%;
+   border-radius: 8px;
+   border-top-color: none;
+   margin-top: 20px;
+   font-size: 18px;
+   opacity: .65;
+   padding: 4px 16px;
+   margin-left: 11px;
+ }
+
+ input:focus {
+   outline: none;
+ }
+
+ .btn-style{
+   background-color: #3f3c3c;
+   border: none;
+   color: white;
+   margin-left: 72px;
+   width: 33%
+ }
+
+ .forget {
+   margin-top: 225px;
+   margin-left:30px;
+   color: white;
+   font-size: 22px;
+   font-weight: 700;
+ }
+
+ a{
+   text-decoration: none;
+   color: white;
+ }
